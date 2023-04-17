@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+.App {
+
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+
+
+.App .column {
+    width: 30%;
+    padding: 20px;
+
+}
+
+.droppable-col {
+    width: 100%;
+    background-color: rgb(49 46 129);
+    padding: 10px 10px 0 10px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    margin-bottom: 10px;
+    background-color:whitesmoke ;
+    color: black;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.item.dragging {
+    background-color: gray;
+}
+.changecolor{
+    background-color: cyan;
+    color: black;
+}
+.changecolor.hover{
+    background-color: black;
+    color: white;
+}
