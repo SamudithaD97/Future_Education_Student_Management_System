@@ -15,17 +15,13 @@ A student management web application built for the CS304 course. It enables educ
 
 ## Getting Started
 ### Prerequisites
-- Java 11+, Node.js, npm, Docker (optional)
+- Java 11+, npm, Docker (optional)
 - Clone the repo: `git clone ...`
 - Run backend: `cd Backend && mvn spring-boot:run`
 - Run frontend: `cd Frontend && npm install && npm start`
 
 ## Usage
 Navigate to `http://localhost:3000`, sign up, log in as **admin**, add courses/students, track attendance.
-
-## Testing
-Backend tests: `mvn test`  
-Frontend tests: `npm test`
 
 ## License
 Educational purposes
